@@ -1,0 +1,301 @@
+body{
+  direction: rtl;
+  font-family: Tahoma;
+  font-size: 15px;
+  color: #666;
+}
+h1{
+  font-size: 28px;
+  color:#246192;
+}
+.logo img{
+  width: 230px;
+}
+.slogan {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  color: #246192;
+  opacity: 0.2;
+  line-height: 0.9;
+  margin-top: 40px;
+}
+.menu{
+  width: 100%;
+  background: #246192;
+  margin-bottom: 45px;
+}
+.navigation{
+  display: flex;
+}
+.navItem{
+  width:20%;
+  text-align: center;
+}
+.navItem a{
+  text-transform: uppercase;
+  font-size: 19px;
+  color: #fff;
+  padding: 15px 0 10px;
+  display: inline-block;
+  width: 100%;
+}
+.navItem a:hover{
+  text-decoration: none;
+}
+.navItem:after,
+.navItem.active:after,
+.navItem:hover:after{
+  display: block;
+  content: " ";
+  height: 5px;
+  width: 100%;
+  background: #246192;
+}
+.navItem.active:after,
+.navItem:hover:after{
+  background: #dd0031;
+}
+.aboutUs{
+  text-align: right;
+}
+.grey{
+  width: 100%;
+  background: #f2f2f2;
+  margin: 45px 0;
+  padding: 25px 0;
+}
+.iconsAbout{
+  color: #246192;
+}
+.aboutItem{
+  display: flex;
+}
+.far, .fa, .fas, .fab{
+  color:#888;
+  font-size: 22px;
+}
+.iconsAbout .col-sm-6{
+  margin-bottom: 15px;
+}
+.map{
+  margin-top:30px;
+}
+.map h4{
+  color: #246192;
+  font-size: 18px;
+  text-align: right;
+}
+.map dl{
+  text-align: right;
+}
+.map dt {
+  font-weight: 400;
+}
+.advantages{
+  margin-bottom: 40px;
+}
+.advantages h4{
+  color: #246192;
+  text-transform: uppercase;
+  text-align: right;
+}
+.advantages .col-sm-6{
+  margin-top:30px;
+}
+.advantageItem{
+  display: flex;
+}
+.advantageItem div{
+  text-align: right;
+}
+.advantageItem .fas,
+.advantageItem .far{
+  font-size: 30px;
+  padding: 5px 0 0 5px;
+}
+.advantages .col-sm-6:nth-child(2),
+.advantages .col-sm-6:nth-child(3),
+.advantages .col-sm-6:nth-child(7),
+.productsPage .advantages .col-md-4:nth-child(4){
+  line-height: 37px;
+}
+.beDistrib{
+  text-align: right;
+}
+.beDistrib{
+  color: #dc0231;
+  font-size: 18px;
+}
+.beDistrib .btn-danger{
+  margin-right: 10px;
+}
+.btn-danger,
+a.btn-danger,
+a.btn-danger:visited,
+a.btn-danger:link{
+  background: #dc0231;
+  color: #fff;
+}
+.formsChooseDistr{
+  padding: 35px 0;
+}
+.formsChooseDistr .form-group{
+  position: relative;
+}
+.formsChooseDistr .form-group label{
+  width:100%;
+  text-align: right;
+  margin-bottom: 0;
+}
+.formsChooseDistr .form-group .form-control{
+  border-radius: 0;
+}
+.formsChooseDistr .btn-danger{
+  margin-top: 20px;
+  font-size: 13.5px;
+  padding: 9px 5px;
+}
+.selectBlock{
+  width: 100%;
+  height: 36px;
+  border: 1px solid #ced4da;
+  background: url(../images/btn-dds.png) no-repeat left center #fff;
+  text-align: right;
+  padding: 6px;
+}
+.selectOptions{
+  position: absolute;
+  border: 1px solid #ced4da;
+  padding: 6px 10px;
+  text-align: right;
+  background: #fff;
+  width: 100%;
+  z-index: 1000;
+}
+.distrCountries{
+  max-height: 250px;
+  overflow-y: scroll;
+}
+.selectOptions ul li{
+  padding: 0 5px;
+}
+.selectOptions ul li:hover{
+  background: #4fa1ff;
+  color: #fff;
+  cursor: pointer;
+}
+.selectOptions ul li span{
+  display: block;
+}
+.btn-primary{
+  background: #246192;
+  border-color: #246192;
+  margin: 5px 0;
+}
+a.btn-primary, a.btn-primary:link, a.btn-primary:visited{
+  color: #fff;
+}
+.form-check{
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+.form-check-input {
+  position: absolute;
+  margin-top: .3rem;
+  margin-left: 0;
+  margin-right: -1.25rem;
+}
+.distrItem{
+  width:100%;
+  border: 2px solid #d7d7d7;
+  text-align: right;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.distrItem .country_title{
+  padding: 5px;
+  background-color: #f0f7fa;
+  width: 100%;
+}
+.distrItem a{
+  font-size: 12px;
+}
+.distrItem p{
+  margin:5px;
+}
+.productsPage .media{
+  margin-bottom: 40px;
+}
+.productsPage .media img{
+  width:166px;
+  border-radius: 50%;
+  border: 1px solid #b4b4b4;
+}
+.productsPage .media h5{
+  font-size: 15px;
+  color: #246192;
+  font-weight: 700;
+}
+.productsPage .media-body{
+  font-size: 13.5px;
+  line-height: 1.3;
+}
+.productsPage .advantageItem{
+  margin: 20px 0;
+}
+.productsPage .advantages h4{
+  margin-top: 20px;
+}
+.advantageItem img{
+  margin: 6px 0 0 5px;
+}
+.productsPage .btn-primary{
+  margin-bottom: 40px;
+}
+.certificateIcon a:hover{
+  text-decoration: none;
+}
+.ekko-lightbox-nav-overlay a:last-child span {
+  text-align: left;
+  color: #000;
+  opacity: 0.5;
+}
+.ekko-lightbox-nav-overlay a:first-child span {
+  text-align: right;
+  color: #000;
+  opacity: 0.5;
+}
+.contactsIcon .fas,
+.contactsIcon .fab{
+  padding-left: 5px;
+}
+.distribsForm input{
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .distrItem{
+    height: 350px;
+  }
+  .certificateImg{
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px){
+  .navItem a{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 540px){
+  .navigation {
+    display: block;
+  }
+  .navItem{
+    width: 100%;
+    text-align: right;
+  }
+  .slogan{
+    display:none;
+  }
+}
